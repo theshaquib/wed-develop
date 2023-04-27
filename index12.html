@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            height: 444px;
+            width: 100%;
+            display: flex;
+
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* flex-flow: row-reverse wrap; */
+
+            justify-content:  center;
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* justify-content: stretch; */
+            /* 
+            align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: initial; */
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            border: 2px solid blue;
+            padding: 5px;
+            margin: 3px;
+        }
+
+        #item-1 {
+            /* flex-grow: 2; */
+            /* flex-shrink: 4; */
+
+        }
+
+        #item-2 {
+            /* flex-grow: 3; */
+            /* flex-shrink: 3; */
+            flex-basis: 160px;
+        }
+
+        /* #item-3 {
+            order: 40;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>This Flexbox</h1>
+    <div class="container">
+        <div class="item" id="item-1">First</div>
+        <div class="item" id="item-2">Second</div>
+        <div class="item" id="item-3">Third</div>
+        <!-- <div class="item" id="item-4">Fourth</div> -->
+        <!-- <div class="item" id="item-5">Fifth</div> -->
+        <!-- <div class="item" id="item-6">Sixth</div> -->
+    </div>
+</body>
+
+</html>

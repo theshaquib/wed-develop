@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@100;400&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+           
+        }
+        header::before{
+            background-image: url('jungle.jpg');
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            /* opacity: 0.5; */
+        }
+
+        .navigation {
+            display: flex;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+            font-family: 'Oswald', sans-serif;
+
+        }
+
+        section {
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 344px;
+            justify-content: center;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        hr {
+            color: rgb(255, 8, 0);
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="class"><a href="#">Home</a></li>
+                <li class="class"><a href="#">About</a></li>
+                <li class="class"><a href="#">Contact</a></li>
+                <li class="class"><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcmoe to the Jungle Book</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ad id adipisci sunt voluptate esse
+            laboriosam autem
+            repellat, ut aut debitis facilis quos nostrum sed qui vel magnam inventore voluptatum facere! Totam qui ad
+            consectetur soluta exercitationem fuga voluptates temporibus? Consectetur, suscipit blanditiis dolore
+            excepturi
+            similique cupiditate magnam et dicta!
+        </p>
+
+    </section>
+    <hr>
+</body>
+
+</html>

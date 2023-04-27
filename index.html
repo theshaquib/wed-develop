@@ -1,0 +1,314 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="html, html tutorials, web development">
+    <meta name="robots" content="INDEX, FOLLOW">
+
+    <!-- THIS IS INCLUDE EXTERNAL CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- THIS IS HOW YOU INCLUDE EXTERNAL JAVASRIPT -->
+    <script src="scripts.jsf"></script>
+    
+    <title>SHAQUIB</title>
+</head>
+<body>
+     <h1>HTML</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong> this is strong</strong> Consectetur soluta ipsum nobis ad reiciendis, vero veniam saepe doloribus quod. <em>bot hoon mai </em> Quis inventore minus nisi ea eaque, adipisci, delectus harum dolor ipsa veniam autem incidunt labore. Unde reprehenderit aliquam voluptas saepe non?</p>
+     <p>Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit. Dolores, eos?</p>
+     <hr>
+
+     <!-- anchor -->
+     <h3>
+         Social Link
+     </h3>
+
+     <a href="https://google.com" target="_blank">Google</a><br>
+     <a href="https://facebook.com" target="_blank">Facebook</a><br>
+     <a href="https://twitter.com" target="_blank">Twitter</a><br>
+     <a href="https://instagram.com" target="_blank">Instagram</a><br>
+     <hr>
+
+     <!-- image  -->
+
+     <h3>BIRYANI</h3>
+     <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="remote image">
+     <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="remote image">
+     <img src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGFzdGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500" alt="remote image">
+     <img src="https://images.unsplash.com/photo-1584949602334-4e99f98286a9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGtlYmFifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500" alt="remote image">
+     <hr>
+
+     <!-- list -->
+     <h3>Unorder List</h3>
+
+     <ul type="square">
+         <li>this is first unorderlist</li>
+         <ul type="circle">
+             <li>another one</li> 
+             <li>another one</li> 
+             <li>another one</li> 
+         </ul>
+         <li>this is second unorderlist</li>
+         <li>this is third unorderlist</li>
+     </ul>
+     <hr>
+     <h3>Order List</h3>
+    <ol type="A">
+         <li>this is first order list</li>
+         <li>this is second order list</li>
+         
+             <ol type="1">
+                 <li>another one</li>
+                 <li>another one</li>
+                 <li>another one</li>
+             </ol>
+         
+         <li>this is third order list</li>
+     </ol>
+
+     <hr>
+
+    <!-- table   -->
+
+    <h3> HTML TABLE</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee Id</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sharukh Khan</td>
+                <td>365214</td>
+                <td>HTML Expert</td>
+            </tr>
+            <tr>
+                <td>Hunter Bot</td>
+                <td>524698</td>
+                <td>CSS Expert</td>
+            </tr>
+            <tr>
+                <td>Nikunj Kumar</td>
+                <td>556463</td>
+                <td>Android Developer</td>
+            <tr>
+                    <td>Sameer Bot</td>
+                    <td>325642</td>
+                    <td>Powerpoint Expert</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <!-- form and lable -->
+
+    <h2>This is HTML form</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name"> Name </label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br> 
+        <div>
+            <label for="role"> Role </label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br> 
+        <div>
+            <label for="email"> Email </label>
+             <input type="email" name="myEmail" id="email">
+        </div>
+        <br> 
+        <div>
+            <label for="date"> Date </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br> 
+        <div>
+            <label for="bonus"> Bonus: </label>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br> 
+        <div>
+            <label for="eligibility"> Are you eligible?: </label>
+            <input type="checkbox" name="myEligibility" id="eligibility">
+        </div>
+        <br> 
+        <div>
+            Gender: Male <input type="radio" name="myGender" checked> FeMale <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself:<br>
+            <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="swf">swift</option>
+                <option value="ind">Indica</option>
+                <option value="ino" selected>Innova</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <hr>
+    </form>
+
+        <!-- Emmet -->
+        <!-- . is for class and # for id -->
+
+        <span class="redbg"></span>
+        <span id="mainID"></span>
+        <div class="redbg blackbox anotherclass"></div>
+
+        <!-- Emmet takes div tag as default -->
+
+        <div class="blackbackground"></div>
+
+        <!-- Creating multiple elements using Emmet  -->
+
+        <!-- span.myClass.myClass2.myClass3 + <tab>  -->
+
+            <span class="myClass myClass2 myClass3"> First </span> <br>
+            <span class="myClass myClass2 myClass3"> Second </span> <br>
+            <span class="myClass myClass2 myClass3"> Third </span> <br>
+            <span class="myClass myClass2 myClass3"> Fourth </span> <br>
+            <hr>
+
+            <!-- Entities  -->
+
+            <div class="container">
+                <p>This is paragraph</p>
+            </div>
+            <div class="container">
+                <p>This is another &nbsp; &nbsp; paragraph with two spaces</p>
+               <p>Paragraph is written like this&lt;p&gt;</p>
+               <p>Pound is written like this&pound;</p>
+               <p>Copyright is written like this &copy;</p>
+               <p>Another character is &rAarr;</p>
+               <p>Another character is &frac14;</p>
+               <p>Empty character is written like this &#8203;</p>
+            </div>
+            <hr>
+            <!-- Semantic Tags in HTML  -->
+
+            <!-- Details  -->
+
+            <details>
+                <summary>Details</summary>
+                Something small enough to escape casual notice.
+            </details>
+            <details>
+                <summary>Details</summary>
+                Something small enough to escape casual notice.
+            </details><details>
+                <summary>Details</summary>
+                Something small enough to escape casual notice.
+            </details><details>
+                <summary>Details</summary>
+                Something small enough to escape casual notice.
+            </details><details>
+                <summary>Details</summary>
+                Something small enough to escape casual notice.
+            </details><details>
+                <summary>Details</summary>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, voluptates hic. Neque dolores quos officia amet, excepturi iste nisi. Quod magnam iste distinctio ipsum laudantium aliquid consequatur rem deleniti, vero qui quasi natus porro, perferendis facere omnis ab magni dolorem!
+            </details>
+            <hr>
+
+            <!-- footer  -->
+
+            <article>
+                <h1>How to be a wizard</h1>
+                <ol>
+                    <li>Grow a long, majestic beard.</li>
+                    <li>Wear a tall, pointed hat.</li>
+                    <li>Have I mentioned the beard?</li>
+                </ol>
+                <footer>
+                    <p>© 2018 Gandalf</p>
+                </footer>
+            </article>
+            <hr>
+
+            <!-- header  -->
+
+            <header class="page-header">
+                <h1>Cute Puppies Express!</h1>
+            </header>
+            
+            <main>
+                <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!</p>
+            </main>
+            <hr>
+
+            <!-- section  -->
+
+            <h1>Choosing an Apple</h1>
+<section>
+    <h2>Introduction</h2>
+    <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+</section>
+
+<section>
+    <h2>Criteria</h2>
+    <p>There are many different criteria to be considered when choosing an Apple — size, color, firmness, sweetness, tartness...</p>
+</section>
+<hr>
+
+<!-- articals  -->
+
+<article class="forecast">
+    <h1>Weather forecast for Seattle</h1>
+    <article class="day-forecast">
+        <h2>03 March 2018</h2>
+        <p>Rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>04 March 2018</h2>
+        <p>Periods of rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>05 March 2018</h2>
+        <p>Heavy rain.</p>
+    </article>
+</article>
+<hr>
+
+<!-- mark  -->
+
+<p id="kite">Search results for "salamander":</p>
+
+<hr>
+
+<p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
+
+<p>Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<hr>      <style>
+    #kite{
+        color: blue;
+        background-color: aqua;
+    }
+
+    
+</style>  
+
+</body>
+</html>

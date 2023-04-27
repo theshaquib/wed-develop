@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            justify-content: center;
+            align-items: center;
+            /* transition-duration: 3s;
+            transition-property: background-color;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s; */
+            transition: background-color 1s ease-in-out 1s;
+        }
+        #box:hover{
+            background-color: white;
+            height: 210px;
+            width: 210px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>this is transition </h3>
+    <div class="vontainer">
+        <div id="box">
+            this is my box
+        </div>
+    </div>
+</body>
+</html>
